@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex items-center gap-6">
             {/* Twitter X */}
-            <a href="https://twitter.com/hubfun" target="_blank" rel="noopener noreferrer" 
+            <a href="https://x.com/hub_fun_COIN" target="_blank" rel="noopener noreferrer" 
               className="bg-[#222] w-14 h-14 rounded-full flex items-center justify-center transition-colors hover:bg-purple-500/20"
             >
               <div className="w-6 h-6 flex items-center justify-center">
@@ -40,7 +40,7 @@ export default function Footer() {
             </a>
             
             {/* Telegram */}
-            <a href="https://t.me/hubfun" target="_blank" rel="noopener noreferrer"
+            <a href="https://t.me/hub_fun_Official" target="_blank" rel="noopener noreferrer"
               className="bg-[#222] w-14 h-14 rounded-full flex items-center justify-center transition-colors hover:bg-purple-500/20"
             >
               <div className="w-6 h-6 flex items-center justify-center">

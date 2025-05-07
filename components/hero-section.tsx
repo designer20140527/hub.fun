@@ -103,14 +103,14 @@ export default function HeroSection() {
         {/* 只在超大屏幕(xl: 1280px以上)显示的单行版本 */}
         <div className="hidden xl:block">
           <h1 className="text-8xl font-normal leading-tight mb-28 whitespace-nowrap">
-            <FlipText
-              duration={0.6}
-              delayMultiple={0.04}
-              className="inline-block"
-            >
-              Make Content Worth Holding
-            </FlipText>
-          </h1>
+          <FlipText
+            duration={0.6}
+            delayMultiple={0.04}
+            className="inline-block"
+          >
+            Make Content Worth Holding
+          </FlipText>
+        </h1>
         </div>
         
         <motion.div 
@@ -120,7 +120,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1.5 }}
         >
           <a 
-            href="https://t.me/hubfun" 
+            href="https://t.me/hub_fun_Official" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="underline-animation text-xl uppercase tracking-wider font-['HK_Guise_SemiBold']"
@@ -128,7 +128,7 @@ export default function HeroSection() {
             Telegram
           </a>
           <a 
-            href="https://twitter.com/hubfun" 
+            href="https://x.com/hub_fun_COIN" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="underline-animation text-xl uppercase tracking-wider font-['HK_Guise_SemiBold']"
